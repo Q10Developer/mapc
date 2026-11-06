@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 16:01:32.384574",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "footing_concreting_checklist_section",
+  "vibrator_and_cube_moulds_available",
+  "admixture_flyash_kp200_available",
+  "aggregate_and_sand_quality_checked",
+  "concrete_grade_as_per_drawing",
+  "concrete_quality_wc_ratio_checked",
+  "vibrator_used_vertically",
+  "concrete_finish_level_checked",
+  "cube_mould_casting_done",
+  "reinforcement_cleaned_after_concreting",
+  "excess_concrete_removed",
+  "cement_ghotai_done",
+  "bitumen_asphalt_coating_done"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "footing_concreting_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Footing Concreting Checklist"
+  },
+  {
+   "fieldname": "vibrator_and_cube_moulds_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Availability of vibrator, cube moulds",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "admixture_flyash_kp200_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Availability of admixture, fly ash, KP200, plasticizers",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "aggregate_and_sand_quality_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Quality of MI, MII, washed crush sand",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_grade_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Grade of concrete as per drawing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_quality_wc_ratio_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Quality of concrete / W.C. ratio",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "vibrator_used_vertically",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the vibrator been used and in vertical position?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_finish_level_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Concrete finish level",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cube_mould_casting_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Casting of cube moulds",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "reinforcement_cleaned_after_concreting",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reinforcement cleaning after concreting",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "excess_concrete_removed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cleaning / removal of excess concrete",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cement_ghotai_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "After initial setting time coat cement (ghotai) on entire footing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "bitumen_asphalt_coating_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Coat bitumen asphalt on footing day after casting",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 16:01:32.384574",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Footing Concreting Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

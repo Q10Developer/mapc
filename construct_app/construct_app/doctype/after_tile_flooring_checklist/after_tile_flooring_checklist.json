@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 12:22:14.257332",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "after_tile_flooring_section",
+  "wipe_down_tile",
+  "tap_every_tile",
+  "spacers_are_used",
+  "keep_the_floor_wet",
+  "cover_the_floor"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "after_tile_flooring_section",
+   "fieldtype": "Section Break",
+   "label": "After Tile Flooring"
+  },
+  {
+   "fieldname": "wipe_down_tile",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Wipe down the tile surface with wet sponge before the cement slurry dries and stains the tile permanently",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "tap_every_tile",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Tap every tile with a wooden stick ,if they make hollow sound repair it  immediately",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "spacers_are_used",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "If the spacers are used ,fill the joint with grout or epoxy ,use white cement or grout if spacer not used",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "keep_the_floor_wet",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Keep the floor wet / cured for 3,4 days",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cover_the_floor",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cover the finish floor with card bords or POP to avoid damage and scratches",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 12:27:07.890339",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "After Tile Flooring Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 12:06:16.526692",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "prior_external_paint_section",
+  "core_plaster",
+  "all_electrical_conduits",
+  "rain_is_expected",
+  "apply_sample_path",
+  "match_exact_manufacturer",
+  "necessary_of_scaffolding"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "prior_external_paint_section",
+   "fieldtype": "Section Break",
+   "label": "Prior External Paint"
+  },
+  {
+   "fieldname": "core_plaster",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify that the core external plaster is fully cured",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "all_electrical_conduits",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure all external electrical conduits ,plumbing lines & other things to do before painting completed",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "rain_is_expected",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify no rain is expected during and drying paint",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "apply_sample_path",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Apply a sample patch of texture and paint of 1m x1m on buildings small area where painting has to be done to confirm shade and pattern ,texture finish with architect / client before ordering bulk quantity",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "match_exact_manufacturer",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Confirm all paints ,primers and texture match the exact manufacturer brand type and batch code specified ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "necessary_of_scaffolding",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check if there is any necessary of scaffolding  ,strictly follow safety rules",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 12:12:52.722587",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Prior External Paint and Texture Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

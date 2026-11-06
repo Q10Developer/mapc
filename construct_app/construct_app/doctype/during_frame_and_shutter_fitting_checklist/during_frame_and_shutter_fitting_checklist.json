@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 01:40:19.670099",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "during_frame_and_shutter_section",
+  "frames_is_fastened",
+  "all_joints_in_position",
+  "plumb_of_frame",
+  "gap_filled",
+  "glass_shutter_in_frame"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "during_frame_and_shutter_section",
+   "fieldtype": "Section Break",
+   "label": "During frame and shutter "
+  },
+  {
+   "fieldname": "frames_is_fastened",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check if the frames is fastened to the marble patti by screw at appropriate intervals and as per specification?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "all_joints_in_position",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are all the joints remain in position without any gap after fastening of frames by screw ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plumb_of_frame",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the plumb of frame",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "gap_filled",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the gap filled by expandable foam or silicone ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "glass_shutter_in_frame",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Install glass shutter in frame & mosquito shutter",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 01:48:32.680280",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During frame and shutter fitting checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

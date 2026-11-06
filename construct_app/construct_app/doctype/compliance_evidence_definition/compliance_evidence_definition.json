@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-10-06 00:00:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "evidence_label",
+  "evidence_type",
+  "is_required",
+  "reference_doctype",
+  "responsible_role",
+  "instructions"
+ ],
+ "fields": [
+  {
+   "description": "What must be collected, for example Signed Form 2A.",
+   "fieldname": "evidence_label",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Evidence Label",
+   "reqd": 1
+  },
+  {
+   "fieldname": "evidence_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Evidence Type",
+   "options": "Document\nQBS Record\nExternal Reference\nData Confirmation",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_required",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Required",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.evidence_type == 'QBS Record'",
+   "fieldname": "reference_doctype",
+   "fieldtype": "Link",
+   "label": "Reference DocType",
+   "mandatory_depends_on": "eval:doc.evidence_type == 'QBS Record'",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "responsible_role",
+   "fieldtype": "Data",
+   "label": "Responsible Role"
+  },
+  {
+   "fieldname": "instructions",
+   "fieldtype": "Small Text",
+   "label": "Instructions"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Compliance Evidence Definition",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC"
+}

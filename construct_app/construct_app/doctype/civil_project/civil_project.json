@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:project_code",
+ "creation": "2026-10-02 13:28:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "project_code",
+  "developer",
+  "maharera_registration_no",
+  "start_date",
+  "planned_completion_date",
+  "status",
+  "time_zone",
+  "communication_escalation_hours"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_code",
+   "fieldtype": "Data",
+   "label": "Project Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "developer",
+   "fieldtype": "Link",
+   "label": "Developer",
+   "options": "Civil Developer",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "maharera_registration_no",
+   "fieldtype": "Data",
+   "label": "MahaRERA Registration No",
+   "search_index": 1
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "planned_completion_date",
+   "fieldtype": "Date",
+   "label": "Planned Completion Date"
+  },
+  {
+   "default": "Setup",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Setup\nActive\nOn Hold\nCompleted\nArchived",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "default": "Asia/Kolkata",
+   "fieldname": "time_zone",
+   "fieldtype": "Data",
+   "label": "Time Zone",
+   "reqd": 1
+  },
+  {
+   "default": "48",
+   "fieldname": "communication_escalation_hours",
+   "fieldtype": "Int",
+   "label": "Communication Escalation Hours",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Civil Project",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "project_name",
+ "track_changes": 1
+}

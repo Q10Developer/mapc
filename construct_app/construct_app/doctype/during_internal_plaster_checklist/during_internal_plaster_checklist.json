@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 09:21:33.895000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "during_internal_plaster_checklist_section",
+  "cement_and_sand_quality_checked",
+  "admixture_plasticizers_ratio_checked",
+  "level_surface_and_plumb_checked",
+  "plaster_finish_confirmed",
+  "right_angle_and_plumb_checked",
+  "two_coat_plaster_done",
+  "second_coat_after_curing",
+  "door_window_opening_dimensions_checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "during_internal_plaster_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "During Internal Plaster Checklist"
+  },
+  {
+   "fieldname": "cement_and_sand_quality_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the cement and sand quality",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "admixture_plasticizers_ratio_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check admixture, plasticizers and plaster ratio",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "level_surface_and_plumb_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for true level surface, right angle, plumb, edges and sharp corners",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plaster_finish_confirmed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure final wall finish and decide whether plaster finish is rough or smooth",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "right_angle_and_plumb_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for right angle and plumb",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "two_coat_plaster_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "If plaster bull thickness is more, has it been finished by two coats of plaster?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "second_coat_after_curing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the second successive coat of plaster been carried out after allowing 1 day curing of the previous day's work?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "door_window_opening_dimensions_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the opening dimensions for doors and windows as per the drawing",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 09:21:33.895000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During Internal Plaster Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

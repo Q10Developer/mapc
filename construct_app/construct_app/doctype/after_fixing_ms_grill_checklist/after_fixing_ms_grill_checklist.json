@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 19:18:28.374853",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "after_fixing_section",
+  "grill_welded_at_every_spot",
+  "metal_paste",
+  "vertical_alignment_and_plumb_checked",
+  "quality_of_welding"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "after_fixing_section",
+   "fieldtype": "Section Break",
+   "label": "After Fixing"
+  },
+  {
+   "fieldname": "grill_welded_at_every_spot",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the MS grill welded at every spot properly ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "metal_paste",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Have the metal paste been applied at all welding joints  and been grinded properly for smooth surface ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "vertical_alignment_and_plumb_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the vertical alignment and plumb checked for the fixed grill ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "quality_of_welding",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the quality of welding ,is it acceptable",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 19:22:04.096081",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "After Fixing MS Grill Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "ACT-.#####",
+ "creation": "2026-10-02 14:02:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "location",
+  "activity_template",
+  "activity_name",
+  "contractor",
+  "responsible_engineer",
+  "planned_start",
+  "planned_finish",
+  "actual_start",
+  "actual_finish",
+  "progress_percent",
+  "gate_status",
+  "current_drawing",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Civil Project",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Project Location",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "activity_template",
+   "fieldtype": "Link",
+   "label": "Activity Template",
+   "options": "Construction Activity Template",
+   "reqd": 1
+  },
+  {
+   "fieldname": "activity_name",
+   "fieldtype": "Data",
+   "label": "Activity Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Link",
+   "label": "Contractor",
+   "options": "Project Party"
+  },
+  {
+   "fieldname": "responsible_engineer",
+   "fieldtype": "Link",
+   "label": "Responsible Engineer",
+   "options": "User"
+  },
+  {
+   "fieldname": "planned_start",
+   "fieldtype": "Date",
+   "label": "Planned Start"
+  },
+  {
+   "fieldname": "planned_finish",
+   "fieldtype": "Date",
+   "label": "Planned Finish",
+   "search_index": 1
+  },
+  {
+   "fieldname": "actual_start",
+   "fieldtype": "Date",
+   "label": "Actual Start"
+  },
+  {
+   "fieldname": "actual_finish",
+   "fieldtype": "Date",
+   "label": "Actual Finish"
+  },
+  {
+   "default": "0",
+   "fieldname": "progress_percent",
+   "fieldtype": "Percent",
+   "label": "Progress Percent",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "default": "Not Evaluated",
+   "fieldname": "gate_status",
+   "fieldtype": "Select",
+   "label": "Gate Status",
+   "options": "Not Evaluated\nReady for Review\nReleased\nHeld",
+   "read_only": 1,
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "current_drawing",
+   "fieldtype": "Link",
+   "label": "Current Drawing",
+   "options": "Project Drawing"
+  },
+  {
+   "default": "Planned",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Planned\nReady\nIn Progress\nHeld\nCompleted\nCancelled",
+   "reqd": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Project Activity",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "activity_name",
+ "track_changes": 1
+}

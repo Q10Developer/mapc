@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 15:10:06.229131",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "section_break_3c8w",
+  "building_face_reference_mark",
+  "lineout_patti_fixed",
+  "building_faces_checked",
+  "column_centres_checked",
+  "nails_oil_paint_applied",
+  "column_numbers_written"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_3c8w",
+   "fieldtype": "Section Break",
+   "label": "Line Out Checklist"
+  },
+  {
+   "fieldname": "building_face_reference_mark",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the building face been fixed by setting reference mark 3 meter outside?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "lineout_patti_fixed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the lineout patti been shifted and fixed 2 meters outside and at right angle (diagonally)?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "building_faces_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check all faces of buildings",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "column_centres_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check all column centres",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "nails_oil_paint_applied",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Apply oil paint to all nails and on patti directly beneath nails",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "column_numbers_written",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are all column numbers written on nails?",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 15:28:37.371661",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Line Out checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 11:59:05.051767",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "surface_preparation_section",
+  "wash_surface_to_remove_dirt",
+  "plaster_hollow",
+  "finish_sides_external_wall",
+  "paint_before",
+  "texture_work"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "surface_preparation_section",
+   "fieldtype": "Section Break",
+   "label": "Surface Preparation"
+  },
+  {
+   "fieldname": "wash_surface_to_remove_dirt",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Wash the surface to remove dirt, loose cement ,and let the wall dry completely",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plaster_hollow",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check weather plaster is hollow any cracks are there , do proper repair process & fill the crack with filler",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "finish_sides_external_wall",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the finish sides of external wall with elevation drawing if there anything missing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "paint_before",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Its better to paint before sliding and grill , if sliding window installed cover it with paper & tape, cover flooring with card boards to avoid stains",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "texture_work",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "If decided to do texture work on wall surface , plaster must be smooth finished do waterproofing treatment on smooth wall before texture",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 12:04:45.486198",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Surface Preparation checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

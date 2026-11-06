@@ -1,0 +1,191 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "MV-.#####",
+ "creation": "2026-10-05 06:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "developer",
+  "project",
+  "location",
+  "project_activity",
+  "client_request_id",
+  "status",
+  "workflow_state",
+  "verification_datetime",
+  "material_code",
+  "material_description",
+  "supplier_name",
+  "challan_invoice_no",
+  "invoice_qty",
+  "actual_qty",
+  "uom",
+  "tolerance_percent",
+  "variance_qty",
+  "variance_percent",
+  "approved_material_ref",
+  "decision",
+  "condition_remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "developer",
+   "fieldtype": "Link",
+   "label": "Developer",
+   "options": "Civil Developer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Civil Project",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Project Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_activity",
+   "fieldtype": "Link",
+   "label": "Project Activity",
+   "options": "Project Activity"
+  },
+  {
+   "fieldname": "client_request_id",
+   "fieldtype": "Data",
+   "label": "Client Request ID",
+   "unique": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nSubmitted\nIn Review\nApproved\nRejected\nCancelled",
+   "reqd": 1
+  },
+  {
+   "fieldname": "workflow_state",
+   "fieldtype": "Data",
+   "label": "Workflow State",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "default": "Now",
+   "fieldname": "verification_datetime",
+   "fieldtype": "Datetime",
+   "label": "Verification Datetime",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "material_code",
+   "fieldtype": "Data",
+   "label": "Material Code",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "material_description",
+   "fieldtype": "Data",
+   "label": "Material Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Data",
+   "label": "Supplier Name"
+  },
+  {
+   "fieldname": "challan_invoice_no",
+   "fieldtype": "Data",
+   "label": "Challan / Invoice No"
+  },
+  {
+   "fieldname": "invoice_qty",
+   "fieldtype": "Float",
+   "label": "Invoice Qty"
+  },
+  {
+   "fieldname": "actual_qty",
+   "fieldtype": "Float",
+   "label": "Actual Qty",
+   "reqd": 1
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "tolerance_percent",
+   "fieldtype": "Percent",
+   "label": "Tolerance Percent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "variance_qty",
+   "fieldtype": "Float",
+   "label": "Variance Qty",
+   "reqd": 1
+  },
+  {
+   "fieldname": "variance_percent",
+   "fieldtype": "Percent",
+   "label": "Variance Percent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "approved_material_ref",
+   "fieldtype": "Data",
+   "label": "Approved Material Reference"
+  },
+  {
+   "default": "Pending",
+   "fieldname": "decision",
+   "fieldtype": "Select",
+   "label": "Decision",
+   "options": "Pending\nAccept\nAccept with Condition\nReject",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "condition_remarks",
+   "fieldtype": "Small Text",
+   "label": "Condition Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Material Verification",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "material_code",
+ "track_changes": 1
+}

@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 14:25:37.278753",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "during_work_checklist_section",
+  "installation_only_after_external_wall_plastering",
+  "all_trusses_are_fully_welded_and_cross",
+  "roof_purlins_closer_together",
+  "use_epdm_washer_screws_on_every_sheet",
+  "all_roofing_sheet_pipes_and_trusses_are_welded"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "during_work_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "During Work Checklist"
+  },
+  {
+   "fieldname": "installation_only_after_external_wall_plastering",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Start  shed installation only after external wall plastering is 100 % complete ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "all_trusses_are_fully_welded_and_cross",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure all trusses are fully welded and cross – bracing (x -bracing ) to ensure  prevent swaying ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "roof_purlins_closer_together",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Keep roof purlins closer together ( 0.9m to 1.2 m max) near edges to fight wind uplift",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "use_epdm_washer_screws_on_every_sheet",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use EPDM  washer screws on every sheet overlap to stop wind from ripping sheets off ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "all_roofing_sheet_pipes_and_trusses_are_welded",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure all roofing sheet pipes and trusses are welded or joined together properly and securely ",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 14:32:19.769688",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During Work Terrace Shed Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

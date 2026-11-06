@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-10-05 09:21:00.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "evidence_label",
+  "evidence_type",
+  "is_required",
+  "status",
+  "reference_doctype",
+  "reference_name",
+  "supporting_file",
+  "external_reference",
+  "verified_by",
+  "verified_on",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "evidence_label",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Evidence Label",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "evidence_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Evidence Type",
+   "options": "Document\nQBS Record\nExternal Reference\nData Confirmation",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "is_required",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Required",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "default": "Pending",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Pending\nAvailable\nVerified\nNot Applicable",
+   "reqd": 1
+  },
+  {
+   "depends_on": "eval:doc.evidence_type == 'QBS Record'",
+   "fieldname": "reference_doctype",
+   "fieldtype": "Link",
+   "label": "Reference DocType",
+   "options": "DocType"
+  },
+  {
+   "depends_on": "eval:doc.evidence_type == 'QBS Record'",
+   "fieldname": "reference_name",
+   "fieldtype": "Dynamic Link",
+   "label": "Reference Name",
+   "options": "reference_doctype"
+  },
+  {
+   "depends_on": "eval:doc.evidence_type == 'Document'",
+   "fieldname": "supporting_file",
+   "fieldtype": "Attach",
+   "label": "Supporting File"
+  },
+  {
+   "depends_on": "eval:doc.evidence_type == 'External Reference'",
+   "fieldname": "external_reference",
+   "fieldtype": "Data",
+   "label": "External Reference"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Link",
+   "label": "Verified By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "verified_on",
+   "fieldtype": "Datetime",
+   "label": "Verified On",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Compliance Evidence",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "creation",
+ "sort_order": "DESC"
+}

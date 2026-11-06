@@ -1,0 +1,211 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 07:45:45.081000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "after_reinforcement_checklist_section",
+  "beam_development_length_verified",
+  "slab_bar_anchorage_verified",
+  "cantilever_bar_extension_verified",
+  "staggered_lapping_verified",
+  "dowel_development_length_verified",
+  "stirrups_and_bending_checked",
+  "cover_20mm_provided",
+  "plumbing_sleeves_checked",
+  "electrical_conduiting_completed",
+  "chairs_provided_under_bentup_bars",
+  "extra_bars_and_stirrups_checked",
+  "beam_pin_provided",
+  "secondary_beam_resting_on_main_beam",
+  "staircase_waist_slab_anchorage_checked",
+  "staircase_top_bars_checked",
+  "riser_and_tread_measurements_checked",
+  "landing_slab_reinforcement_checked",
+  "slab_and_beam_cleanliness_checked",
+  "structural_engineer_called"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "after_reinforcement_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "After Reinforcement Checklist"
+  },
+  {
+   "fieldname": "beam_development_length_verified",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify that all main beam (top and bottom) extend fully into the column core with specified development length (Ld) and terminate in 90-degree hooks",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "slab_bar_anchorage_verified",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check that the slab main reinforcement bars extend into the supporting beams to exact anchorage length shown in the structural drawing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cantilever_bar_extension_verified",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cantilever - Ensure the top bars extend back into supporting internal room or column by at least 1.5 times the length of the cantilever overhang",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "staggered_lapping_verified",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the lapping ensured in the staggered manner at the specified location as per approved drawings",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "dowel_development_length_verified",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the dowels left in sufficient development length at appropriate location",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "stirrups_and_bending_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the number of stirrups, tension zone stirrups, stirrup bends and binding",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cover_20mm_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check 20 mm cover at 1 m intervals",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plumbing_sleeves_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check plumbing / sanitary pipe cutout locations and sleeves",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "electrical_conduiting_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the electrical conduiting work completed as per drawing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "chairs_provided_under_bentup_bars",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has chairs been provided under bent up bars ensuring depth according to slab casting level",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "extra_bars_and_stirrups_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check extra bars, curtail bars and stirrups in beams",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "beam_pin_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify pin (piece of 20 mm bar) is provided between layered beam bars to allow concrete flow between reinforcement",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "secondary_beam_resting_on_main_beam",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify that the secondary beam is resting on main beam",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "staircase_waist_slab_anchorage_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Staircase - Verify that the main reinforcement bars of the waist slab are anchored into supporting floor beams / landing beams with full development length",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "staircase_top_bars_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Top bars of staircase waist slab are main bars, check number of bars, spacing and cover blocks",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "riser_and_tread_measurements_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the number of risers and treads and their measurements according to drawing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "landing_slab_reinforcement_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check landing slab reinforcement",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "slab_and_beam_cleanliness_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check cleanliness of slab, beams, columns and staircase for debris, paper or waste material",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "structural_engineer_called",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Call structural engineer for checking",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 07:45:45.081000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "After Reinforcement Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

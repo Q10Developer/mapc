@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-10-05 08:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "developer",
+  "project",
+  "location",
+  "project_activity",
+  "client_request_id",
+  "status",
+  "workflow_state",
+  "subject",
+  "question",
+  "discipline",
+  "raised_to",
+  "required_by",
+  "response",
+  "response_by",
+  "response_at",
+  "resulting_drawing",
+  "disposition",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "developer",
+   "fieldtype": "Link",
+   "label": "Developer",
+   "options": "Civil Developer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Civil Project",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Project Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_activity",
+   "fieldtype": "Link",
+   "label": "Project Activity",
+   "options": "Project Activity"
+  },
+  {
+   "fieldname": "client_request_id",
+   "fieldtype": "Data",
+   "label": "Client Request ID",
+   "unique": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nSubmitted\nIn Review\nApproved\nRejected\nCancelled",
+   "reqd": 1
+  },
+  {
+   "fieldname": "workflow_state",
+   "fieldtype": "Data",
+   "label": "Workflow State",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject",
+   "reqd": 1
+  },
+  {
+   "fieldname": "question",
+   "fieldtype": "Text Editor",
+   "label": "Question",
+   "reqd": 1
+  },
+  {
+   "fieldname": "discipline",
+   "fieldtype": "Select",
+   "label": "Discipline",
+   "options": "Civil\nStructural\nArchitectural\nWaterproofing\nMEP\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "raised_to",
+   "fieldtype": "Link",
+   "label": "Raised To",
+   "options": "Project Party",
+   "reqd": 1
+  },
+  {
+   "fieldname": "required_by",
+   "fieldtype": "Datetime",
+   "label": "Required By",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "response",
+   "fieldtype": "Text Editor",
+   "label": "Response"
+  },
+  {
+   "fieldname": "response_by",
+   "fieldtype": "Data",
+   "label": "Response By"
+  },
+  {
+   "fieldname": "response_at",
+   "fieldtype": "Datetime",
+   "label": "Response At"
+  },
+  {
+   "fieldname": "resulting_drawing",
+   "fieldtype": "Link",
+   "label": "Resulting Drawing",
+   "options": "Project Drawing"
+  },
+  {
+   "default": "Pending",
+   "fieldname": "disposition",
+   "fieldtype": "Select",
+   "label": "Disposition",
+   "options": "Pending\nAnswered\nRevision Required\nNo Change\nRejected",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "default": "RFI-.YYYY.-.#####",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "RFI-.YYYY.-.#####",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Technical Query RFI",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "subject",
+ "track_changes": 1
+}

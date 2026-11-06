@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:42:20.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "wall_tiles_wc_bath_kitchen_checklist_section",
+  "tile_marking_completed_before_services",
+  "wall_plumb_checked",
+  "wall_corners_at_right_angle",
+  "waterproofing_tested_before_tiling",
+  "concealed_services_completed",
+  "approved_tile_layout_available",
+  "tile_and_adhesive_quality_checked",
+  "tile_preparation_completed"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "wall_tiles_wc_bath_kitchen_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Wall Tiles (WC, Bath, Kitchen) Checklist"
+  },
+  {
+   "fieldname": "tile_marking_completed_before_services",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Complete bathroom, WC and other wall tile marking before concealed plumbing and electrical conduiting to maintain standard height and avoid tile cutting and joint mismatch",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "wall_plumb_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify walls are in plumb to avoid uneven adhesive thickness and hollow tile spots",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "wall_corners_at_right_angle",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure wall corners are at 90° angle so corner tiles align neatly without gaps",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "waterproofing_tested_before_tiling",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure waterproofing coating has been cured and tested leak-free before laying tiles",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concealed_services_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check if all concealed plumbing points, electrical points and lease wall work have been completed",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "approved_tile_layout_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are approved plans and tile laying patterns available?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "tile_and_adhesive_quality_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the quantity and quality of tiles and tile adhesive",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "tile_preparation_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check tile type and soak tiles in water for 30 minutes prior to laying",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:42:20.000000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Wall Tiles - WC Bath Kitchen Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

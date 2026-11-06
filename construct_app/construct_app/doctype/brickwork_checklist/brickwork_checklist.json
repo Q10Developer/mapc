@@ -1,0 +1,171 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 08:57:32.595000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "brickwork_checklist_section",
+  "projection_pin_box_checked",
+  "wall_plumb_line_right_angle_checked",
+  "dimensions_and_levels_checked",
+  "bricks_soaked_properly",
+  "tie_beam_cast_for_long_wall",
+  "room_size_checked_as_per_drawing",
+  "brickwork_joints_cleaned",
+  "coping_filled_properly",
+  "mortar_mixing_tray_used",
+  "door_frame_plumb_and_right_angle",
+  "holdfast_fixed_properly",
+  "lintels_cast_above_openings",
+  "cleaning_completed_after_work",
+  "brickwork_curing_completed"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "brickwork_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Brickwork Checklist"
+  },
+  {
+   "fieldname": "projection_pin_box_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the small projection (elevation pin / box) in the room to room brickwork been checked?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "wall_plumb_line_right_angle_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the plumb bob of wall, line and right angle been checked during brickwork?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "dimensions_and_levels_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the length, width, height, sill level, lintel level, loft slab bottom level, and window/door levels been checked?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "bricks_soaked_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the bricks soaked in water properly?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "tie_beam_cast_for_long_wall",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "If the wall is 3 m long, is tie beam cast at nearly 1.2 m height and cured for 7 days?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "room_size_checked_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the room size been checked according to drawing properly?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "brickwork_joints_cleaned",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Have the joints of the brickwork been properly cleaned?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "coping_filled_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the coping been filled on 4 inch thick brickwork at 3 ft height?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "mortar_mixing_tray_used",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are trays being used for mixing mortar?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "door_frame_plumb_and_right_angle",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the door frame in perfect plumb and at right angle?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "holdfast_fixed_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Have 3+3 hold fast been properly fixed to door frame?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "lintels_cast_above_openings",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Have the lintels over the doors and windows been cast?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cleaning_completed_after_work",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cleaning after work was completed?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "brickwork_curing_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Curing for next 7 days after brickwork (3 times a day)",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 08:57:32.595000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Brickwork Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

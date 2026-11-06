@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:03:02.719000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "terrace_waterproofing_prior_checklist_section",
+  "terrace_ready_after_external_plaster",
+  "debris_removed_from_slab",
+  "slab_surface_leveled",
+  "perimeter_skirting_area_cleared",
+  "rainwater_outlets_finalized",
+  "pipe_penetrations_repaired",
+  "slab_and_walls_pressure_washed",
+  "pores_and_structural_gaps_repaired",
+  "hollers_created_at_wall_floor_junction",
+  "hollers_cured_and_final_cleaning_done"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "terrace_waterproofing_prior_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Terrace Waterproofing Prior Checklist"
+  },
+  {
+   "fieldname": "terrace_ready_after_external_plaster",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Start terrace waterproofing immediately after the external plaster curing period is completely finished",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "debris_removed_from_slab",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Remove all loose debris, dust and remaining mortar from the slab through chipping and breaking",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "slab_surface_leveled",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Grind all undulations, extra concrete, mortar and cement efflorescence to achieve an even profile",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "perimeter_skirting_area_cleared",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Clear the wall skirting area up to 1 ft around the entire perimeter",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "rainwater_outlets_finalized",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Partner with plumber and architectural drawing to finalize rainwater outlets at every 15 ft to avoid extra brickbat load later",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pipe_penetrations_repaired",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check wall holes, apply Bondtite and sand on pipe surface for grip, and fill gaps with high-strength repair mortar",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "slab_and_walls_pressure_washed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Wash the entire slab and walls using pressure pipes and ensure no dust or dirt remains",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pores_and_structural_gaps_repaired",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fill rough concrete pores with repair mortar and structural gaps with approved repair material and cure properly",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "hollers_created_at_wall_floor_junction",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Create hollers at wall-to-floor corners using PMM and metal aggregate",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "hollers_cured_and_final_cleaning_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Properly cure newly made hollers, then clean and wash the surface one final time",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:03:02.719000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Terrace Waterproofing Prior Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

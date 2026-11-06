@@ -1,0 +1,130 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 00:58:54.298828",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "during_fabrication_section",
+  "size_as_per_approved",
+  "angle_and_welded_joints",
+  "fabricated_rail_as_per_drawing",
+  "one_coat_of_zinc_phosphate",
+  "enamel_paint_colour",
+  "first_coat_of_approved_synthetic",
+  "second_coat_of_approved_synthetic",
+  "dimension_of_rail_as_per_drawing",
+  "fitting_strength_of_railing"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "during_fabrication_section",
+   "fieldtype": "Section Break",
+   "label": "During Fabrication"
+  },
+  {
+   "fieldname": "size_as_per_approved",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check railing width ,height & size as per approved drawing ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "angle_and_welded_joints",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for line , level ,verticality ,right angle & welded joints",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "fabricated_rail_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the fabricated rail is as per drawing ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "one_coat_of_zinc_phosphate",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify one coat of zinc phosphate primer been applied ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "enamel_paint_colour",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure enamel paint colour is as per drawing ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "first_coat_of_approved_synthetic",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the applied 1st coat of approved synthetic enamel paint properly been painted ? ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "second_coat_of_approved_synthetic",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the applied 2nd coat of approved synthetic enamel paint properly been painted without letting any spot remain ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "dimension_of_rail_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check dimension of rail as per drawing ?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "fitting_strength_of_railing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure fitting & strength of railing , ensure railing being fixed with fasteners or expansion bolts ",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 01:16:24.859857",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During Fabrication Railing Work Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

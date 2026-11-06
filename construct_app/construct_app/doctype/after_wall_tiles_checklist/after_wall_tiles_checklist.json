@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:44:56.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "after_wall_tiles_checklist_section",
+  "finished_tiles_alignment_checked",
+  "excess_cement_slurry_cleaned",
+  "joints_filled_with_grout",
+  "wall_tiles_cured"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "after_wall_tiles_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "After Wall Tiles Checklist"
+  },
+  {
+   "fieldname": "finished_tiles_alignment_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the finished wall tiling checked for uniform spacing, plumb and right angle?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "excess_cement_slurry_cleaned",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the excess cement slurry been cleaned from the tile surface and joints?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "joints_filled_with_grout",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fill the joints with white cement or matching colour grout",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "wall_tiles_cured",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cure wall tiles as per requirement",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:44:56.000000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "After Wall Tiles Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

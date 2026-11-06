@@ -1,0 +1,187 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:05:06.598000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "terrace_waterproofing_chemical_application_checklist_section",
+  "primer_first_coat_applied",
+  "primer_second_coat_applied",
+  "waterproofing_first_coat_applied",
+  "waterproofing_second_coat_applied",
+  "quartz_sand_sprinkled_on_skirting",
+  "heavy_duty_cotton_protective_sheet_laid",
+  "membrane_integrity_48_hour_ponding_checked",
+  "drainage_slope_and_level_buttons_marked",
+  "bedding_mortar_brickbat_slope_laid",
+  "brickbat_gaps_left_open",
+  "open_brickbat_layout_cured_and_ponded",
+  "brickbat_gaps_filled_with_waterproofing_mortar",
+  "cement_slurry_applied_and_finished",
+  "slurry_surface_roughened_before_hardening",
+  "final_chips_coba_layer_installed",
+  "final_72_hour_ponding_leak_test_completed"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "terrace_waterproofing_chemical_application_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Terrace Waterproofing - Chemical Application Checklist"
+  },
+  {
+   "fieldname": "primer_first_coat_applied",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Apply the 1st coat of PU Magnum Primer in a vertical direction and allow it to dry as per manufacturer's technical methodology",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "primer_second_coat_applied",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Apply the 2nd coat of primer in horizontal direction to fill remaining lumps and voids left by the 1st coat",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "waterproofing_first_coat_applied",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Once the primer is completely dry, apply ready-made PU Magnum waterproofing chemical in a vertical direction",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "waterproofing_second_coat_applied",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Apply 2nd coat of PU Magnum in horizontal direction after the 1st coat has dried",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "quartz_sand_sprinkled_on_skirting",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "While the 2nd coat of PU Magnum is still wet on the 1 ft wall skirting area, sprinkle clean quartz sand to create mechanical grip for subsequent plastering",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "heavy_duty_cotton_protective_sheet_laid",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Lay down a heavy -duty cotton protective sheet over the entire chemical treated area to safeguard the membrane against punctures or wear and tear during brickbat .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "membrane_integrity_48_hour_ponding_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pond water for 48 hours right now to check the main membrane integrity before hiding it under the brickbat .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "drainage_slope_and_level_buttons_marked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Establish the drainage slope from highest point down to the rainwater outlets and mark level buttons ( thiyya )",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "bedding_mortar_brickbat_slope_laid",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Spread bedding mortar over the area and embed broken brickbat firmly into the mortar matching the slope .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "brickbat_gaps_left_open",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Leave the gaps between the brickbat open, do not fill them on the same day to allow the bedding mortar breathe and set .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "open_brickbat_layout_cured_and_ponded",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cure and pond water over the open brickbat layout for 3,4 days .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "brickbat_gaps_filled_with_waterproofing_mortar",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pack the brickbat gaps tightly using a mortar admixed with waterproofing liquid ( dr.fixit ) .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cement_slurry_applied_and_finished",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Spread cement slurry evenly over the entire brickbat area and finish the base surface smoothly with a trowel .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "slurry_surface_roughened_before_hardening",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Before the slurry fully harden rough the surface with wire brush to create grip for final coat .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "final_chips_coba_layer_installed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Install the final protective layer ( chips coba) over the entire surface ,fill the all joints smoothly while strictly maintaining the predefined slope toward the drain .",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "final_72_hour_ponding_leak_test_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Perform final test by ponding water on the finished surface for 72 hours check the underside of the slab for any leaks any where on the surface after draining                 ( perfect slope execution )",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:22:17.006000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Terrace Waterproofing - Chemical Application Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 06:49:43.338000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "slab_after_formwork_checklist_section",
+  "beam_alignment_levels_diagonals_checked",
+  "beam_verticality_and_slab_dimensions_checked",
+  "shuttering_corners_right_angle_checked",
+  "room_measurements_as_per_drawing",
+  "balcony_and_projection_as_per_drawing",
+  "adequate_supports_checked",
+  "sunk_requirements_and_location_checked",
+  "shuttering_oil_and_joint_sealing_confirmed",
+  "architect_called_for_checking"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "slab_after_formwork_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Slab After Formwork Checklist"
+  },
+  {
+   "fieldname": "beam_alignment_levels_diagonals_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the alignment, levels and diagonals of beam bottom, beam sides with respect to the vertical members",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "beam_verticality_and_slab_dimensions_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the verticality of beam sides and confirm the slab dimensions",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "shuttering_corners_right_angle_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the corners of the shuttering are at right angles",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "room_measurements_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the measurements of rooms as per drawing?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "balcony_and_projection_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "All the balconies / bedroom projections constructed according to the drawing?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "adequate_supports_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check adequate supports",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "sunk_requirements_and_location_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the sunk requirements and its location",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "shuttering_oil_and_joint_sealing_confirmed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Confirm shuttering oil application and sealing of ply/panel joints",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "architect_called_for_checking",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Call architect for checking",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 06:49:43.338000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Slab After Formwork Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 09:03:31.214000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "prior_to_external_plaster_checklist_section",
+  "external_window_marble_completed",
+  "window_bottom_levels_uniform",
+  "elevation_preparation_completed",
+  "moulding_and_coping_completed",
+  "rcc_members_hacked_for_roughness",
+  "rcc_brickwork_joints_filled",
+  "scaffolding_tied_properly",
+  "chicken_mesh_applied",
+  "sand_quality_checked",
+  "plaster_thickness_checked",
+  "rcc_surface_treated",
+  "wall_water_soaked_before_plaster"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "prior_to_external_plaster_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Prior to External Plaster Checklist"
+  },
+  {
+   "fieldname": "external_window_marble_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "External window marble frame been completed?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "window_bottom_levels_uniform",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the bottom levels of all windows on a single floor kept at exact same levels?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "elevation_preparation_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the outer side been prepared according to elevation drawing?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "moulding_and_coping_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the molding & coping at elevation been completed?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "rcc_members_hacked_for_roughness",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has all RCC columns, beams & other RCC members been hacked for roughness?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "rcc_brickwork_joints_filled",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are all the joints between RCC & brickwork filled properly with grout (silicone)?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "scaffolding_tied_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Scaffolding tied properly?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "chicken_mesh_applied",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is chicken mesh applied on all joints between RCC and brickwork?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "sand_quality_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the sand to be used been properly cleaned and checked?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plaster_thickness_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the thickness of plaster been checked by taking a reference level on the parapet wall and to the outer first floor beam using line dori?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "rcc_surface_treated",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Before starting the work, has the concrete surface been treated with hack-free liquid agent / Plasto Grip and chhat applied?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "wall_water_soaked_before_plaster",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Wall is well water soaked 1 day before plaster",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 09:03:31.214000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Prior to External Plaster Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

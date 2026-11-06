@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:36:19.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "kitchen_ota_checklist_section",
+  "platform_height_marked",
+  "platform_width_checked",
+  "vertical_supports_in_plumb",
+  "supports_embedded_and_cured",
+  "sink_and_utilities_position_confirmed",
+  "electrical_conduits_position_checked",
+  "lpg_pipeline_location_verified",
+  "platform_base_strengthened",
+  "platform_slope_checked",
+  "pardi_darshan_patti_pani_patti_provided",
+  "joints_grouted_properly",
+  "wall_tiles_started_from_darshan_patti"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "kitchen_ota_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Kitchen ota Checklist"
+  },
+  {
+   "fieldname": "platform_height_marked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the marking of kitchen platform top at 32 inches from floor finish level",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "platform_width_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check width of platform 26 inches clear",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "vertical_supports_in_plumb",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check vertical supports of platform are in plumb",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "supports_embedded_and_cured",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Make sure all vertical and horizontal supports are embedded in wall at least 1 inch, joints filled with mortar and fresh cement work cured",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "sink_and_utilities_position_confirmed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Confirm the position of sink, water inlet, outlet and purifier",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "electrical_conduits_position_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure wall conduits for refrigerator, chimney, microwave and mixer grinder are properly placed above or below platform",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "lpg_pipeline_location_verified",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify the inlet location for LPG pipeline or piped gas connection matches the stove layout",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "platform_base_strengthened",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Make sure durable marble or Kadapa stone is used below finish granite/platform and mortar is filled between layers for additional strength",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "platform_slope_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the platform has adequate slope towards the sink (1:30)",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pardi_darshan_patti_pani_patti_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check whether vertical pardi (if required), darshan patti and pani patti are provided",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "joints_grouted_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fill gaps with suitable colour matching grout to prevent leakage and moisture around kitchen walls",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "wall_tiles_started_from_darshan_patti",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Start wall tiles from darshan patti",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:36:19.000000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Kitchen ota Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

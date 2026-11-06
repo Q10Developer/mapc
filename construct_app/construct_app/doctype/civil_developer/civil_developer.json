@@ -1,0 +1,77 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:developer_name",
+ "creation": "2026-10-02 13:15:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "developer_name",
+  "developer_code",
+  "legal_name",
+  "maharera_promoter_id",
+  "is_active",
+  "primary_contact"
+ ],
+ "fields": [
+  {
+   "fieldname": "developer_name",
+   "fieldtype": "Data",
+   "label": "Developer Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "developer_code",
+   "fieldtype": "Data",
+   "label": "Developer Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "legal_name",
+   "fieldtype": "Data",
+   "label": "Legal Name"
+  },
+  {
+   "fieldname": "maharera_promoter_id",
+   "fieldtype": "Data",
+   "label": "MahaRERA Promoter ID"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "primary_contact",
+   "fieldtype": "Link",
+   "label": "Primary Contact",
+   "options": "Contact"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Civil Developer",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "developer_name",
+ "track_changes": 1
+}

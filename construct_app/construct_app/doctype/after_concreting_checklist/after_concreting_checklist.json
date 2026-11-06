@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 08:53:43.222000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "after_concreting_checklist_section",
+  "concrete_surface_finished_properly",
+  "concrete_surface_line_level_ok",
+  "post_deshuttering_defects_checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "after_concreting_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "After Concreting Checklist"
+  },
+  {
+   "fieldname": "concrete_surface_finished_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the concrete area surface been finished properly?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_surface_line_level_ok",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the line level of concrete surface OK?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "post_deshuttering_defects_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Any defect observed in concrete after de-shuttering such as honeycombing, slurry leakages, offsets, porous concrete, or dislocation of cover to reinforcement? If any, proper repairs carried out.",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 08:53:43.222000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "After Concreting Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

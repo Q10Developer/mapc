@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 09:38:10.279968",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "primer_and_internal_paint_section",
+  "wiping_out_putty",
+  "primer_wall",
+  "first_coat_paint",
+  "coat_to_dry",
+  "final_finish_in_light",
+  "stains_and_wash"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "primer_and_internal_paint_section",
+   "fieldtype": "Section Break",
+   "label": "Primer and internal paint"
+  },
+  {
+   "fieldname": "wiping_out_putty",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "After wiping out putty dust ,apply water or solvent based interior primer , these will seals the pores in putty and creates a strong bond for the paint ,let It dry for 6-7 hours",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "primer_wall",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the primer wall one last time under focus light, if any minor holes or scratches apers fill them with repair putty sand it after drying and re-primer those spots",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "first_coat_paint",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Apply the 1st coat of interior paint with high quality roller or brush ,prevent roller marks by using straight roller technique",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "coat_to_dry",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Allow coat to dry ,apply the second coat of paint",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "final_finish_in_light",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the final finish in focus light and natural light",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "stains_and_wash",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Clean the stains and wash the floor gently",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 09:55:08.396851",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Primer and internal paint checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 09:28:08.466724",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "surface_preparation_section",
+  "clean_wall_with_putty",
+  "mix_putty",
+  "first_coat_wall_putty",
+  "first_coat_with_sand_paper",
+  "second_coat_putty",
+  "sand_dried_coat"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "surface_preparation_section",
+   "fieldtype": "Section Break",
+   "label": "Surface preparation"
+  },
+  {
+   "fieldname": "clean_wall_with_putty",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Clean the walls with putty blade or brooms ,cloth to remove loose powder or any dust",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "mix_putty",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Mix the putty as per specification ,make thick slurry type putty",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "first_coat_wall_putty",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Apply the 1st coat of wall putty vertically from bottom to top using putty blade ,keep the thickness minimum ( 1.5mm max ) to avoid future cracks, allow it to dry for day",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "first_coat_with_sand_paper",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gently sand the first coat with sand paper to remove trowel marks and edges , check the waves should not appears ,wipe out the dust",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "second_coat_putty",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Apply the 2nd coat of putty horizontally ,to fill minor holes ,let it dry for day",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "sand_dried_coat",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Sand the dried coat ,check the wall with focus light to ensure no uneven surface remain",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 09:33:00.025522",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Surface preparation and putty application checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

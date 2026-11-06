@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 16:24:00.697634",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "plinth_beam_checklist_section",
+  "surface_compacted",
+  "pcc_done_below_beam",
+  "pcc_as_per_drawing",
+  "beam_measurements_checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "plinth_beam_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Plinth Beam Checklist"
+  },
+  {
+   "fieldname": "surface_compacted",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has entire surface been compacted?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pcc_done_below_beam",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is PCC done below the beam?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pcc_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is PCC done according to drawing?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "beam_measurements_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the measurements checked beams to beams & outer to outer?",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 16:24:00.697634",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Plinth Beam Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

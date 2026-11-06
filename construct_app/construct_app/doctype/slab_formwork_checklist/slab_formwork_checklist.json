@@ -1,0 +1,83 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 06:39:34.227000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "slab_formwork_checklist_section",
+  "shuttering_material_available",
+  "shuttering_tools_available",
+  "level_coordinates_marked_on_columns"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "slab_formwork_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Slab Formwork Checklist"
+  },
+  {
+   "fieldname": "shuttering_material_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Shuttering material available?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "shuttering_tools_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the required shuttering tools available at site?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "level_coordinates_marked_on_columns",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the level coordinates marked on RCC columns @ 1.5 m from floor level?",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 06:39:34.227000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Slab Formwork Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

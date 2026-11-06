@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:26:45.250000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "lift_elevator_checklist_section",
+  "lift_type_and_layout_verified",
+  "lift_shaft_plumb_checked",
+  "lift_pit_waterproofing_checked",
+  "guide_rails_aligned",
+  "hoisting_motor_secured",
+  "dual_earthing_provided",
+  "ard_function_tested",
+  "inverter_room_finalized",
+  "operating_manual_displayed"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "lift_elevator_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Lift (Elevator) Checklist"
+  },
+  {
+   "fieldname": "lift_type_and_layout_verified",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the type of lift and drawing to ensure if there is any separate lift given",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "lift_shaft_plumb_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify that the lift shaft walls are completely straight (in plumb) and match the manufacturer's layout dimensions",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "lift_pit_waterproofing_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure the lift pit at bottom is waterproofed with zero seepage and leakage (1500 mm depth from floor level) as per drawing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "guide_rails_aligned",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check that the structural car guide rails and counterweight rails are aligned perfectly with no gaps",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "hoisting_motor_secured",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure the heavy hoisting motor is bolted firmly on a level and solid concrete bed plate",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "dual_earthing_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify that the lift motor, control panel and structural rails are connected to a dedicated dual grounding earthing system",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "ard_function_tested",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cut off the main power and confirm the battery-backed ARD safely brings the lift to the nearest floor and opens the doors",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "inverter_room_finalized",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Finalize the safe location for inverter/store room for lift backup",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "operating_manual_displayed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Stick the lift operating manual inside the lift cabin",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:26:45.250000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Lift (Elevator) Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

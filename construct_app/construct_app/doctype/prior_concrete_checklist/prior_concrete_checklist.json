@@ -1,0 +1,138 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 07:50:46.886000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "prior_concrete_checklist_section",
+  "concrete_quantity_grade_wise",
+  "casting_area_checked_by_structural_engineer",
+  "shuttering_cleaned_before_casting",
+  "reference_levels_marked",
+  "cube_moulds_available",
+  "sand_metal_mixer_quality_checked",
+  "admixture_materials_available",
+  "electrical_and_plumbing_completed",
+  "vibrators_available_for_compaction",
+  "rain_and_power_backup_available"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "prior_concrete_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Prior Concrete Checklist"
+  },
+  {
+   "fieldname": "concrete_quantity_grade_wise",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mention Quantity of Concrete Grade-Wise"
+  },
+  {
+   "fieldname": "casting_area_checked_by_structural_engineer",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the area of casting and scaffolding, bracing, support of slab crosschecked by structural engineers?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "shuttering_cleaned_before_casting",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the shuttering area cleaned and washed before casting?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "reference_levels_marked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the reference levels marked for thickness of concreting?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cube_moulds_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the required number of cube moulds available at pour point & in good condition?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "sand_metal_mixer_quality_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the quality of sand, metal and condition of mixer or pump if pouring by RMC",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "admixture_materials_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify availability of admixture, plasticizer, KP200, fly ash and cement",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "electrical_and_plumbing_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the completion of electrical conduiting and plumbing pipes",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "vibrators_available_for_compaction",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Availability of number of vibrators for compaction",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "rain_and_power_backup_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Availability of arrangement for protection against rain water ingress and electricity cut-off (generator)",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 07:50:46.886000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Prior Concrete Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

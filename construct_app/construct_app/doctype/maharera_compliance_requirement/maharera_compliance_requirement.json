@@ -1,0 +1,118 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-10-05 09:21:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "requirement_code",
+  "requirement_name",
+  "category",
+  "form_code",
+  "frequency",
+  "evidence_definition",
+  "professional_role",
+  "effective_from",
+  "effective_to",
+  "is_active",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "requirement_code",
+   "fieldtype": "Data",
+   "label": "Requirement Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "requirement_name",
+   "fieldtype": "Data",
+   "label": "Requirement Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "Quarterly Update\nAnnual Update\nWithdrawal Certificate\nCompletion\nOther Regular Update\nConveyance\nOther",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "form_code",
+   "fieldtype": "Data",
+   "label": "Form Code"
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Quarterly\nAnnual\nEvent Based\nOne Time\nAs Required",
+   "reqd": 1
+  },
+  {
+   "fieldname": "evidence_definition",
+   "fieldtype": "Table",
+   "label": "Evidence Definition",
+   "options": "Compliance Evidence Definition"
+  },
+  {
+   "fieldname": "professional_role",
+   "fieldtype": "Select",
+   "label": "Professional Role",
+   "options": "Promoter\nArchitect\nEngineer\nChartered Accountant\nQuality Professional\nOther"
+  },
+  {
+   "fieldname": "effective_from",
+   "fieldtype": "Date",
+   "label": "Effective From",
+   "reqd": 1
+  },
+  {
+   "fieldname": "effective_to",
+   "fieldtype": "Date",
+   "label": "Effective To"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "default": "MCR-.#####",
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "MCR-.#####",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "MahaRERA Compliance Requirement",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "requirement_code",
+ "sort_order": "ASC",
+ "title_field": "requirement_name",
+ "track_changes": 1
+}

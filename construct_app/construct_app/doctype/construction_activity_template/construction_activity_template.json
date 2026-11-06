@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:activity_code",
+ "creation": "2026-10-02 13:56:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "activity_code",
+  "activity_name",
+  "discipline",
+  "default_checklist",
+  "gate_mode",
+  "is_active"
+ ],
+ "fields": [
+  {
+   "fieldname": "activity_code",
+   "fieldtype": "Data",
+   "label": "Activity Code",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "activity_name",
+   "fieldtype": "Data",
+   "label": "Activity Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "discipline",
+   "fieldtype": "Select",
+   "label": "Discipline",
+   "options": "Civil\nStructural\nArchitectural\nWaterproofing\nMEP\nFinishes\nExternal Works\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "default_checklist",
+   "fieldtype": "Link",
+   "label": "Default Checklist",
+   "options": "Inspection Checklist Template"
+  },
+  {
+   "default": "Hard Block",
+   "fieldname": "gate_mode",
+   "fieldtype": "Select",
+   "label": "Gate Mode",
+   "options": "Advisory\nSoft Block\nHard Block",
+   "reqd": 1
+  },
+  {
+   "default": "1",
+   "fieldname": "is_active",
+   "fieldtype": "Check",
+   "label": "Is Active",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Construction Activity Template",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "activity_name",
+ "track_changes": 1
+}

@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:25:27.313000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "plumbing_checklist_section",
+  "fixtures_locations_finalized",
+  "toilet_pan_type_confirmed",
+  "plumbing_as_per_tile_marking",
+  "pipe_pressure_test_completed",
+  "cutting_gaps_filled_and_meshed",
+  "plumbing_fixtures_available",
+  "separate_flush_tank_inlet_provided",
+  "fresh_cement_work_cured",
+  "debris_cleaned_by_plumber"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "plumbing_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Plumbing Checklist"
+  },
+  {
+   "fieldname": "fixtures_locations_finalized",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Have full information regarding the exact location and specific items / fixtures to be installed in the plumbing work?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "toilet_pan_type_confirmed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Before installing the toilet pans, has it been confirmed whether they are Indian or Western type and whether the flush tank is normal or concealed in lease wall?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plumbing_as_per_tile_marking",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has it been verified that the plumbing piping work is being done exactly according to the tile marking lines?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pipe_pressure_test_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the pipes for breakage or joint leakage using a pressure pump machine",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cutting_gaps_filled_and_meshed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fill the cutting gaps with mortar and provide chicken mesh over it",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plumbing_fixtures_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check all types of taps and fixtures are available such as spout, shower, diverter, basin tap, jet spray tap, flush tank, loft tank connection and stop cocks",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "separate_flush_tank_inlet_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Separate inlet lines provided if borewell or other water source is used instead of municipal supply for flush tank",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "fresh_cement_work_cured",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cure the fresh cement work",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "debris_cleaned_by_plumber",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ask the plumber to clean all the debris",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:25:27.313000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Plumbing Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 12:41:45.075136",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "prior_flooring_section",
+  "concrete_floor",
+  "pattern_to_mason",
+  "all_plumbing",
+  "level_buttons",
+  "block_all_pipe",
+  "tiles_boxes"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "prior_flooring_section",
+   "fieldtype": "Section Break",
+   "label": "Prior flooring"
+  },
+  {
+   "fieldname": "concrete_floor",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "The concrete floor must be swept clean ,remove all dust ,loose cement ,mud and debris ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pattern_to_mason",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Explain and handover latest drawing of design and pattern to mason ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "all_plumbing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "All plumbing pipes ,electrical conduits ,and door frames in the room must be installed before starting ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "level_buttons",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Level buttons ( thiya) must be fixed on the entire surface to ensure floor finish at correct height & level ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "block_all_pipe",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check & block all pipe opening or gaps near wall / slabs with solid concrete to prevent leaks ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "tiles_boxes",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure the tiles boxes match the approved colour size and brand ,tiles must be free from cracks and broken corners ",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 12:46:42.439896",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Prior Tile Flooring Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

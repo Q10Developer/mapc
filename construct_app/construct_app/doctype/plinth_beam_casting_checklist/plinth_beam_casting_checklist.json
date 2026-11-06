@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 16:37:10.168052",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "plinth_beam_casting_checklist_section",
+  "cement_sand_metal_materials_available",
+  "vibrator_and_cube_moulds_available",
+  "concrete_grade_checked",
+  "concrete_workability_checked",
+  "needle_vibrator_used_properly",
+  "cube_moulds_filled"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "plinth_beam_casting_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Plinth Beam Casting Checklist"
+  },
+  {
+   "fieldname": "cement_sand_metal_materials_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check availability of cement, sand, metals, plasticizers, fly ash, KP200",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "vibrator_and_cube_moulds_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check vibrator, cube moulds",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_grade_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check Grade of concrete",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_workability_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check concrete workability within W.C. ratio limits",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "needle_vibrator_used_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure a needle vibrator is used during concrete pouring, inserting it strictly in vertical direction only",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cube_moulds_filled",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the cube moulds filled?",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 16:37:10.168052",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Plinth Beam Casting Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

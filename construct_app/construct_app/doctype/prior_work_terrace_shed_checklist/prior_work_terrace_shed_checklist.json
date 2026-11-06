@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:50:10.673097",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "prior_work_checklist_section",
+  "orders_for_quality_approved_pipes_and_sheets",
+  "insert_structural_pipes_directly_into_columns",
+  "fix_plates_to_rcc_beams"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "prior_work_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Prior Work Checklist"
+  },
+  {
+   "fieldname": "orders_for_quality_approved_pipes_and_sheets",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Place orders for quality approved pipes and sheets on time",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "insert_structural_pipes_directly_into_columns",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Insert structural pipes directly into columns during concrete casting ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "fix_plates_to_rcc_beams",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Fix base plates to RCC beams using heavy duty anchor bolts",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 14:24:42.987628",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Prior Work Terrace Shed Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

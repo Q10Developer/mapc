@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 11:44:58.804000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "before_waterproofing_checklist_section",
+  "surface_cleaned_for_waterproofing",
+  "isi_marked_pvc_pipes_used",
+  "sleeves_cleared",
+  "sanitary_fixture_locations_finalized",
+  "single_nahani_trap_checked",
+  "four_way_nahani_trap_checked",
+  "commode_pipe_installed",
+  "old_sleeve_pipe_treated",
+  "pipe_concrete_gaps_filled",
+  "waterproofing_chemicals_used",
+  "debris_and_dust_removed"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "before_waterproofing_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Before Waterproofing Checklist"
+  },
+  {
+   "fieldname": "surface_cleaned_for_waterproofing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check surface is clean for waterproofing, make sure no chipping and breaker work is remaining",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "isi_marked_pvc_pipes_used",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use ISI marked PVC pipes for wet plumbing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "sleeves_cleared",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Clear 110 mm and 75 mm sleeves which were already left at the time of slab casting",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "sanitary_fixture_locations_finalized",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Finalized the location of basin, WC, bath, nahani trap as per drawing and customer requirements",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "single_nahani_trap_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use single nahani trap if there is no basin inside bathroom or WC and sufficient slope is available for drainage",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "four_way_nahani_trap_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use 4-way nahani trap to collect water from basin bottle trap or other nahani trap where two-side slope is provided",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "commode_pipe_installed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Install 110 mm pipe for commode at the designated position",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "old_sleeve_pipe_treated",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use new pipe at old sleeve, roughen concrete and pipe surface, and apply Bondtite sand treatment",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pipe_concrete_gaps_filled",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pack the gaps between pipe and concrete with PMM",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "waterproofing_chemicals_used",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use waterproofing chemicals where necessary",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "debris_and_dust_removed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Clean all debris and make all surfaces dust free for waterproofing",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 11:44:58.804000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Before Waterproofing Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 02:08:12.987919",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "during_fixing_door_section",
+  "door_is_not_loose",
+  "plumb_and_diagonals",
+  "pattern_of_door",
+  "hinges_in_shutter",
+  "set_on_shutter",
+  "quality_by_gently",
+  "plastioc_sheet_over_new_door",
+  "keys_safely"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "during_fixing_door_section",
+   "fieldtype": "Section Break",
+   "label": "During fixing door"
+  },
+  {
+   "fieldname": "door_is_not_loose",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Make sure door frame is not loose not tilting",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plumb_and_diagonals",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the plumb and diagonals",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pattern_of_door",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the pattern of door sides or door finish which side should be in and which one to be out side",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "hinges_in_shutter",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Screw hinges in shutter & hang it on frame screw shutter with hinges on screw ,check if it stuck or scratch on floor or elsewhere",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "set_on_shutter",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Put on latches ,fitting ,L-drop set on shutter",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "quality_by_gently",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the quality by gently swinging and check the quality of latches and handles",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plastioc_sheet_over_new_door",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Put plastic sheet over new door so painters and other workers won’t scratch it",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "keys_safely",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Keep the keys safely",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 02:15:21.574625",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During fixing door checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

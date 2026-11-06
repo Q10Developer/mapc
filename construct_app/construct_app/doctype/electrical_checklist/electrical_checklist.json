@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:27:39.850000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "electrical_checklist_section",
+  "electrical_layout_prepared",
+  "flat_marking_completed",
+  "customer_requirements_confirmed",
+  "groove_cutting_completed",
+  "pipes_and_boxes_installed",
+  "floor_piping_clamped",
+  "conduit_strings_provided",
+  "pipe_openings_closed",
+  "wiring_and_fixtures_as_per_load"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "electrical_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Electrical Checklist"
+  },
+  {
+   "fieldname": "electrical_layout_prepared",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Prepare the electrical layout",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "flat_marking_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Do the marking inside the flat according to the layout",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "customer_requirements_confirmed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the customer been briefed about electrical points and additional requirements documented with cost approval?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "groove_cutting_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the marking and wall groove (jhari) cutting been completed according to layout and approved customer requirements?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pipes_and_boxes_installed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Have the pipes and boxes on slab and wall been installed and filled with mortar?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "floor_piping_clamped",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "If piping passes through flooring, is it properly clamped?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "conduit_strings_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are strings (line dori) provided inside conduits to facilitate future wire pulling?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pipe_openings_closed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are all pipe openings closed to avoid blockage?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "wiring_and_fixtures_as_per_load",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use wiring and electrical fixtures according to load requirements and approved quality standards",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:27:39.850000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Electrical Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

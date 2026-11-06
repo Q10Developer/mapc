@@ -1,0 +1,163 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 16:41:29.895837",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "pcc_at_plinth_level_checklist_section",
+  "safety_norms_hsem_followed",
+  "approved_drawing_available",
+  "preceding_activities_completed",
+  "anti_termite_treatment_done",
+  "backfilling_and_compaction_completed",
+  "soling_done",
+  "shuttering_dimensions_and_supports_checked",
+  "pcc_thickness_maintained",
+  "concrete_grade_in_columns_checked",
+  "concrete_material_quality_checked",
+  "admixture_flyash_plasticizers_available",
+  "kp200_cement_metals_sand_available",
+  "needle_vibrator_used_properly"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "pcc_at_plinth_level_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "PCC at Plinth Level Checklist"
+  },
+  {
+   "fieldname": "safety_norms_hsem_followed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the safety norms being covered as per HSEM process?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "approved_drawing_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the approved drawing available?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "preceding_activities_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are all the preceding activities completed for the area?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "anti_termite_treatment_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Whether anti-termite treatment has been done as per specification?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "backfilling_and_compaction_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Backfilling & compaction has been done at entire plinth?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "soling_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has soling been done?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "shuttering_dimensions_and_supports_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check whether the shuttering dimensions and supports are proper?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "pcc_thickness_maintained",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "PCC thickness has to be 4\"",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_grade_in_columns_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is concrete filled in the columns as per grade?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_material_quality_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify quality of MI, MII, washed crush sand, check the grade and ensure quality of concrete within W.C. ratio limits",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "admixture_flyash_plasticizers_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check availability of admixture, fly ash, plasticizers",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "kp200_cement_metals_sand_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check availability of KP200 cement, metals, sand, etc.",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "needle_vibrator_used_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure a needle vibrator is used during concrete pouring, inserting it strictly in vertical direction only",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 16:41:29.895837",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "PCC at Plinth Level Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

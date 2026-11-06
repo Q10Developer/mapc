@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-10-05 09:14:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project",
+  "meeting_datetime",
+  "meeting_type",
+  "venue_mode",
+  "chairperson",
+  "attendees",
+  "minutes",
+  "actions"
+ ],
+ "fields": [
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Civil Project",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "meeting_datetime",
+   "fieldtype": "Datetime",
+   "label": "Meeting Datetime",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "meeting_type",
+   "fieldtype": "Select",
+   "label": "Meeting Type",
+   "options": "Site Review\nProgress Review\nQuality Review\nCoordination\nMahaRERA Review\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "venue_mode",
+   "fieldtype": "Data",
+   "label": "Venue/Mode"
+  },
+  {
+   "fieldname": "chairperson",
+   "fieldtype": "Data",
+   "label": "Chairperson"
+  },
+  {
+   "fieldname": "attendees",
+   "fieldtype": "Small Text",
+   "label": "Attendees"
+  },
+  {
+   "fieldname": "minutes",
+   "fieldtype": "Text Editor",
+   "label": "Minutes",
+   "reqd": 1
+  },
+  {
+   "fieldname": "actions",
+   "fieldtype": "Table",
+   "label": "Actions",
+   "options": "MOM Action Item"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Meeting Minutes MOM",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "meeting_datetime",
+ "sort_order": "DESC",
+ "title_field": "project",
+ "track_changes": 1
+}

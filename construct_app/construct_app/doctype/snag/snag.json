@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2026-10-05 09:19:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "developer",
+  "project",
+  "location",
+  "project_activity",
+  "client_request_id",
+  "status",
+  "workflow_state",
+  "snag_number",
+  "category",
+  "description",
+  "severity",
+  "assigned_party",
+  "target_date",
+  "rectification",
+  "verified_by",
+  "snag_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "developer",
+   "fieldtype": "Link",
+   "label": "Developer",
+   "options": "Civil Developer",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Civil Project",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Project Location",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project_activity",
+   "fieldtype": "Link",
+   "label": "Project Activity",
+   "options": "Project Activity"
+  },
+  {
+   "fieldname": "client_request_id",
+   "fieldtype": "Data",
+   "label": "Client Request ID",
+   "unique": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nSubmitted\nIn Review\nApproved\nRejected\nCancelled",
+   "reqd": 1
+  },
+  {
+   "fieldname": "workflow_state",
+   "fieldtype": "Data",
+   "label": "Workflow State",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "snag_number",
+   "fieldtype": "Data",
+   "label": "Snag Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "label": "Category",
+   "options": "Civil\nFinishes\nWaterproofing\nMEP\nCleaning\nDocumentation\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "default": "Minor",
+   "fieldname": "severity",
+   "fieldtype": "Select",
+   "label": "Severity",
+   "options": "Minor\nMajor\nCritical",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "assigned_party",
+   "fieldtype": "Link",
+   "label": "Assigned Party",
+   "options": "Project Party",
+   "reqd": 1
+  },
+  {
+   "fieldname": "target_date",
+   "fieldtype": "Date",
+   "label": "Target Date",
+   "reqd": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "rectification",
+   "fieldtype": "Text Editor",
+   "label": "Rectification"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Link",
+   "label": "Verified By",
+   "options": "User"
+  },
+  {
+   "default": "Open",
+   "fieldname": "snag_status",
+   "fieldtype": "Select",
+   "label": "Snag Status",
+   "options": "Open\nAssigned\nRectification Submitted\nVerified\nClosed\nReopened",
+   "reqd": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Construct App",
+ "name": "Snag",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "target_date",
+ "sort_order": "ASC",
+ "title_field": "snag_number",
+ "track_changes": 1
+}

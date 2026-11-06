@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 15:44:40.178545",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "footing_formwork_checklist_section",
+  "pcc_marking_checked",
+  "shuttering_material_quality",
+  "shuttering_well_oiled",
+  "footing_box_size_as_per_drawing",
+  "centre_marking_checked",
+  "footing_box_alignment",
+  "footing_box_diagonals",
+  "footing_box_plumb",
+  "casting_level_marked",
+  "supports_and_bracing_checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "footing_formwork_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Footing Formwork Checklist"
+  },
+  {
+   "fieldname": "pcc_marking_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check marking on PCC",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "shuttering_material_quality",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Quality of shuttering material",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "shuttering_well_oiled",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Whether shuttering is well oiled",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "footing_box_size_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Size of footing box as per drawing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "centre_marking_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check centre marking on box at both sides",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "footing_box_alignment",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Alignment of footing box",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "footing_box_diagonals",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Diagonals of footing box",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "footing_box_plumb",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Plumb of footing box",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "casting_level_marked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Casting level marked on footing box?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "supports_and_bracing_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check supports / bracing",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 15:44:40.178545",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Footing Formwork Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

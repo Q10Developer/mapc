@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 16:32:14.477732",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "plinth_beam_shuttering_checklist_section",
+  "shuttering_condition_checked",
+  "beam_tied_and_shuttered_as_per_drawing",
+  "outer_to_outer_measurements_checked",
+  "beam_sides_plumb_and_level"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "plinth_beam_shuttering_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Plinth Beam Shuttering Checklist"
+  },
+  {
+   "fieldname": "shuttering_condition_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the shuttering condition",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "beam_tied_and_shuttered_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the beam tied and shuttered according to drawing?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "outer_to_outer_measurements_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are outer to outer measurements checked?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "beam_sides_plumb_and_level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are beam sides in plumb & in line level?",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 16:32:14.477732",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Plinth Beam Shuttering Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

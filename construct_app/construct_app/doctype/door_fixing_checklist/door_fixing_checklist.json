@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 01:59:22.998137",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "before_instaling_checklist_section",
+  "qty_of_main_doors",
+  "double_check_the_door",
+  "inspect_the_frame_and_door",
+  "plumb_of_member",
+  "preceding_activity_completed",
+  "alignment_of_frame"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "before_instaling_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Before Instaling checklist"
+  },
+  {
+   "fieldname": "qty_of_main_doors",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Order the required qty of main doors and bed doors",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "double_check_the_door",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Double check that the door frame and shutter match the measurements on the drawing",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "inspect_the_frame_and_door",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Inspect the frame and door for any scratches bends ,twisted or cracks",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plumb_of_member",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the plumb of member",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "preceding_activity_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "All the preceding activity completed?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "alignment_of_frame",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the diagonal alignment of frame",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 02:06:04.777704",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Door fixing checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

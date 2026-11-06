@@ -1,0 +1,90 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 12:15:23.363046",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "tile_skirting_section",
+  "skirting_to_be_install",
+  "skirting_height",
+  "match_the_floor_tile",
+  "skirting_be_embedded"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "tile_skirting_section",
+   "fieldtype": "Section Break",
+   "label": "Tile Skirting"
+  },
+  {
+   "fieldname": "skirting_to_be_install",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Skirting has to be installed atleast 15 days later floor tiling",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "skirting_height",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use  70 to 75 mm skirting height ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "match_the_floor_tile",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Match the floor tile joint and skirting joints",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "skirting_be_embedded",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Skirting should be embedded and  in wall and in face of POP thickness finish",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 12:19:38.143330",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Tile Skirting Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

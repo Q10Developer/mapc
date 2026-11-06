@@ -1,0 +1,139 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 15:54:28.555985",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "footing_reinforcement_checklist_section",
+  "bar_diameter_checked",
+  "number_of_bars_checked",
+  "double_cage_provided",
+  "chairs_provided_in_double_cage",
+  "bar_spacing_checked",
+  "development_length_checked",
+  "cover_as_per_details",
+  "column_bars_placed_at_centre",
+  "column_plumb_checked",
+  "steel_bar_condition_checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "footing_reinforcement_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Footing Reinforcement Checklist"
+  },
+  {
+   "fieldname": "bar_diameter_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Diameter of bars",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "number_of_bars_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "No. of bars both side",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "double_cage_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Double cage (if given)",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "chairs_provided_in_double_cage",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Chairs in double cage",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "bar_spacing_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Spacing in bars",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "development_length_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Development length of bars",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cover_as_per_details",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cover as per details",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "column_bars_placed_at_centre",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Column bars placed in centre?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "column_plumb_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Column in plumb",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "steel_bar_condition_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Condition of steel bars (rusted, oiled, unclean)",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 15:54:28.555985",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Footing Reinforcement Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

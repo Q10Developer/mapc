@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 07:38:26.875000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "slab_reinforcement_during_reinforcement_checklist_section",
+  "lapping_length_as_per_drawing",
+  "beam_reinforcement_placed_properly",
+  "slab_and_beam_reinforcement_checked",
+  "extra_bars_curtail_bars_stirrups_checked",
+  "column_reduction_direction_checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "slab_reinforcement_during_reinforcement_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "During Reinforcement Checklist"
+  },
+  {
+   "fieldname": "lapping_length_as_per_drawing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the lapping length ensured as per drawing?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "beam_reinforcement_placed_properly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check reinforcement are placed properly at beam",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "slab_and_beam_reinforcement_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check all the reinforcement of the slabs & beam",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "extra_bars_curtail_bars_stirrups_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check extra bars, curtail bars, extra stirrups at tension zone",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "column_reduction_direction_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify column reduction direction and measurement carefully",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 07:38:26.875000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During Reinforcement Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

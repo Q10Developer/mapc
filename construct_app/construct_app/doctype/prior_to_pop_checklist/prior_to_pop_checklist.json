@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 12:59:07.730479",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "prior_to_pop_section",
+  "base_cement",
+  "rcc_surface",
+  "level_buttons",
+  "electrical_conduits",
+  "chicken_mesh"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "prior_to_pop_section",
+   "fieldtype": "Section Break",
+   "label": "Prior to pop"
+  },
+  {
+   "fieldname": "base_cement",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure the base cement plaster is fully cured ,structurally sound ,and free from cracks ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "rcc_surface",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the RCC surface is well hacked for proper bonding / or use bonding agent prior pop work for better bonding ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "level_buttons",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure vertical & horizontal level buttons are fixed (dhada tikki ) using plumb and level to maintain thickness ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "electrical_conduits",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Verify all electrical conduits ,switch boxes and plumbing lines are concealed and checked before covering them ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "chicken_mesh",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check that chicken mesh is being used across all RCC joints to prevent future cracks ",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 13:02:38.451887",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Prior to POP checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

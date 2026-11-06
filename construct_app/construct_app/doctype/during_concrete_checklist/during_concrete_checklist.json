@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 08:49:39.713000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "during_concrete_checklist_section",
+  "construction_joint_treatment_done",
+  "workability_test_conducted",
+  "cube_casting_as_per_frequency",
+  "vibrator_usage_checked",
+  "tang_lafa_removed",
+  "different_concrete_for_columns_checked",
+  "plastic_cover_and_initial_curing_done",
+  "concrete_top_level_finished",
+  "temporary_stopper_materials_removed"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "during_concrete_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "During Concrete Checklist"
+  },
+  {
+   "fieldname": "construction_joint_treatment_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Old and new concrete construction joints treatment done as per approved methodology?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "workability_test_conducted",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Workability test of concrete being carried out as per approved frequency",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cube_casting_as_per_frequency",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has number of cubes been cast as per approved frequency?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "vibrator_usage_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check vibrators being used at 1 ft intervals vertically for 10-14 seconds",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "tang_lafa_removed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Remove tang lafa as soon as sunk slab gets casted",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "different_concrete_for_columns_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check if different concrete has to be poured in columns only?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plastic_cover_and_initial_curing_done",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Spread plastic over levelled casted slab and start gentle curing with sprinkler water",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "concrete_top_level_finished",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the top level of concrete been finished as per required level marking?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "temporary_stopper_materials_removed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the temporary stopper materials removed?",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 08:49:39.713000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During Concrete Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

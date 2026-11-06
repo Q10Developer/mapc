@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 13:34:55.000000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "marble_granite_checklist_section",
+  "pop_reference_buttons_placed",
+  "marble_granite_surface_roughed",
+  "frame_installed_as_per_pop_level",
+  "toilet_bathroom_fascia_projection_checked",
+  "granite_locked_in_katra_joint",
+  "marble_granite_polished_before_installation",
+  "required_projection_maintained"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "marble_granite_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Marble / Granite Checklist"
+  },
+  {
+   "fieldname": "pop_reference_buttons_placed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Place reference level buttons of POP",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "marble_granite_surface_roughed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the granite / marble been roughened properly using Bondtite and coarse sand (marble dana)?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "frame_installed_as_per_pop_level",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the marble / granite frame for window jamb, hall opening and toilet/bathroom opening been installed in alignment with the POP button level (thiyya)?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "toilet_bathroom_fascia_projection_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the marble / granite on the inner fascia of toilet / bathroom been projected 1.5 inches outside the brickwork?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "granite_locked_in_katra_joint",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the granite been locked in katra joint?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "marble_granite_polished_before_installation",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the granite / marble been polished before installation?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "required_projection_maintained",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the marble / granite been projected outside by 1.5 inches where tiles are to be installed and by 12 mm where POP is to be done (according to POP buttons)?",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 13:34:55.000000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Marble - Granite Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,138 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-23 12:31:21.242325",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "during_tile_section",
+  "sand_cement",
+  "layer_of_mortar",
+  "thick_cement",
+  "size_more",
+  "tile_lines",
+  "floor_slopes",
+  "long_spirit",
+  "cut_tiles",
+  "inter_in_freshly",
+  "leaning_tiles"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "during_tile_section",
+   "fieldtype": "Section Break",
+   "label": "During Tile"
+  },
+  {
+   "fieldname": "sand_cement",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "The sand cement mortar must be mixed properly",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "layer_of_mortar",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "If the layer of mortar exceeding 2,make sure to do IPS PCC  at that area",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "thick_cement",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Thick ,pure cement slurry must be spread evenly over the wet mortar bed right before placing the tile to ensure strong grip",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "size_more",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "If the size is more than 1200 x1200 mm , ensure to use tile adhesive for laying floor tile ,before that make concrete slab evenly level by PCC  with proper level buttons ( thiya) to avoid excess use of adhesive over uneven surface ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "tile_lines",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check that the tile lines match across the entire room , gaps between joints must be equal and completely straight ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "floor_slopes",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "In bathrooms ,balconies and kitchen ensure the floor slopes down towards the water drain trap so water does not settle",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "long_spirit",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Use long aluminium spirit level across multiple tiles ,no tiles should be siting higher or lower than its neighbor ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cut_tiles",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Cut tiles with sharp blades ,to avoid  damaged edges corners ,must have smooth finish ",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "inter_in_freshly",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Make sure no one will inter in the freshly installed flooring room for at least 2 days",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "leaning_tiles",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Keep on cleaning the tiles while laying to avoid stains ",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-23 12:38:46.067153",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During Tile Flooring Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 09:09:17.421000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "external_plaster_checklist_section",
+  "mortar_mixing_done_in_ms_tray",
+  "mortar_quality_checked",
+  "plaster_coats_as_per_thickness",
+  "waterproofing_admixture_mixed",
+  "finishing_coat_after_curing",
+  "elevation_grooves_and_patta_checked",
+  "curing_completed_for_7_days",
+  "debris_removed",
+  "plaster_area_cleaned"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "external_plaster_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "External Plaster Checklist"
+  },
+  {
+   "fieldname": "mortar_mixing_done_in_ms_tray",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the mortar mixing done in the MS tray?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "mortar_quality_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check quality of mortar according 1:4 ratio",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plaster_coats_as_per_thickness",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the number of coats of plaster followed as per the specified thickness?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "waterproofing_admixture_mixed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the admixture or waterproofing agent mixed as per dosage rate for plaster?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "finishing_coat_after_curing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the finishing coat being carried out with minimum 7 days curing of rough coat plaster?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "elevation_grooves_and_patta_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "All kinds of elevation grooves and patta checked?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "curing_completed_for_7_days",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Curing for next 7 days",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "debris_removed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Remove all debris",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plaster_area_cleaned",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Clean the area of plaster",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 09:09:17.421000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "External Plaster Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 06:45:07.536000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "during_formwork_checklist_section",
+  "beam_bottom_top_level_checked",
+  "beam_side_verticality_checked",
+  "slab_supports_provided",
+  "foam_strips_provided",
+  "slab_supports_bracing_checked_by_consultant"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "during_formwork_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "During Formwork Checklist"
+  },
+  {
+   "fieldname": "beam_bottom_top_level_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the top level of beam bottom checked?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "beam_side_verticality_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the verticality of beam side checked (plumb bob)?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "slab_supports_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the supports used for slab?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "foam_strips_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the foam strips provided at column beam junction to avoid slurry leakage?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "slab_supports_bracing_checked_by_consultant",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Make sure RCC consultant must check supports and bracing of slab",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 06:45:07.536000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "During Formwork Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-21 16:08:56.091225",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "below_column_reinforcement_checklist_section",
+  "number_of_bars_checked",
+  "bar_size_checked",
+  "bars_connected_to_stirrups",
+  "stirrup_spacing_checked",
+  "development_length_checked",
+  "column_centre_checked",
+  "column_plumb_checked",
+  "lap_length_checked",
+  "cover_blocks_checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "below_column_reinforcement_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Below Column Reinforcement Checklist"
+  },
+  {
+   "fieldname": "number_of_bars_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "No. of bars",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "bar_size_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Size of bars",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "bars_connected_to_stirrups",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has all bars been connected to stirrups?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "stirrup_spacing_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Spacing of stirrups",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "development_length_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Development length of bars",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "column_centre_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Centre of column",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "column_plumb_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Plumb of column",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "lap_length_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Lap length",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "cover_blocks_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check Cover Blocks",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-21 16:08:56.091225",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Below Column Reinforcement Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

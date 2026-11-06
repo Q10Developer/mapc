@@ -1,0 +1,179 @@
+{
+ "actions": [],
+ "allow_bulk_edit": 1,
+ "allow_rename": 1,
+ "creation": "2026-10-22 09:16:47.965000",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_name",
+  "date",
+  "prior_to_internal_plaster_checklist_section",
+  "safety_norms_hsem_followed",
+  "approved_method_statement_available",
+  "preceding_activities_completed",
+  "conduits_filled_with_mortar",
+  "chicken_mesh_provided",
+  "masonry_joints_and_rcc_hacked",
+  "efflorescence_removed",
+  "masonry_and_rcc_cleaned",
+  "plaster_bull_thickness_checked",
+  "level_pads_line_level_plumb_checked",
+  "electrical_boxes_aligned_with_level_pads",
+  "plaster_materials_available",
+  "lintels_and_lofts_completed",
+  "conduit_boxes_protected",
+  "room_sizes_checked"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_name",
+   "fieldtype": "Link",
+   "label": "Project Name",
+   "options": "Project"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "prior_to_internal_plaster_checklist_section",
+   "fieldtype": "Section Break",
+   "label": "Prior to Internal Plaster Checklist"
+  },
+  {
+   "fieldname": "safety_norms_hsem_followed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are the safety norms being covered as per HSEM process?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "approved_method_statement_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Is the approved method statement available?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "preceding_activities_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for the completion of preceding activities like fixing of service conduits, electrical conduits, etc.",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "conduits_filled_with_mortar",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure conduits filling with low grade mortar",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "chicken_mesh_provided",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has chicken mesh been provided on the electrical conduits and junction of masonry & RCC members?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "masonry_joints_and_rcc_hacked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for racking of masonry joints and hacking on RCC surface",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "efflorescence_removed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for removal of efflorescence over brick surface",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "masonry_and_rcc_cleaned",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for cleaning and washing of masonry & RCC surface",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plaster_bull_thickness_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check whether the plaster bull thickness is sufficient and placed at appropriate intervals (at 4 ft distance) with a tile piece or identification marks",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "level_pads_line_level_plumb_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for the level pads, line, level and plumb",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "electrical_boxes_aligned_with_level_pads",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure electrical conduit boxes match with the level pads",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "plaster_materials_available",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check for availability of materials required for respective type of plastering",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "lintels_and_lofts_completed",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Whether all the lintels / lofts have been completed and hacked properly?",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "conduit_boxes_protected",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ensure the conduit boxes are filled / covered with gunny bags or sand",
+   "options": "\nYes\nNo\nNA"
+  },
+  {
+   "fieldname": "room_sizes_checked",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Check the unfinished sizes of the room are satisfactory with respect to drawing",
+   "options": "\nYes\nNo\nNA"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-22 09:16:47.965000",
+ "modified_by": "Administrator",
+ "module": "Construct App",
+ "name": "Prior to Internal Plaster Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
